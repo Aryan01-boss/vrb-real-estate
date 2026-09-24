@@ -1,0 +1,4 @@
+:HL["/_next/static/chunks/0pphe05-6-e2a.css","style"]
+:HL["https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@400;500;600;700&display=swap","style"]
+:HL["/_next/static/media/vrb-hero.0e1lubk3vr3hw.jpg","image"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}},"staleTime":300,"buildId":"7aIJe9aUKsBjmuNe7K0mf"}

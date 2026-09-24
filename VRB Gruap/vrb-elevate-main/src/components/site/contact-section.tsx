@@ -1,0 +1,3 @@
+import { ContactForm } from "./contact-form";
+import { Reveal } from "./primitives";
+export function ContactSection() { return <section className="bg-card py-24 md:py-32"><div className="container-shell grid gap-16 lg:grid-cols-12"><Reveal className="lg:col-span-5"><p className="micro-label text-wine">Begin a conversation</p><h2 className="mt-6 font-display text-6xl leading-[0.9] md:text-7xl">Let’s Build Your<br />Next Investment.</h2><p className="mt-8 max-w-md text-sm leading-7 text-muted-foreground">Speak with our team to explore available developments, investment opportunities and site visits.</p></Reveal><div className="lg:col-span-6 lg:col-start-7"><ContactForm /></div></div></section>; }
