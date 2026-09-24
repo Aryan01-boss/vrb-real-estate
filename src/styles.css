@@ -169,16 +169,12 @@
 @utility bg-hero-overlay { background: linear-gradient(90deg, color-mix(in oklab, var(--hero) 90%, transparent) 0%, color-mix(in oklab, var(--hero) 45%, transparent) 58%, color-mix(in oklab, var(--hero) 20%, transparent) 100%); }
 @utility hairline-top { border-top: 1px solid var(--border); }
 @utility reveal {
-  opacity: 0;
-  transform: translateY(2rem);
+  opacity: 1;
+  transform: none;
   transition: opacity 700ms cubic-bezier(.2,.7,.2,1), transform 800ms cubic-bezier(.2,.7,.2,1);
-  &.is-visible { opacity: 1; transform: translateY(0); }
 }
-@utility image-reveal {
-  clip-path: inset(0 0 100% 0);
-  transition: clip-path 1000ms cubic-bezier(.2,.7,.2,1), opacity 500ms ease;
-  &.is-visible { clip-path: inset(0 0 0 0); }
-}
+@utility image-reveal { clip-path: inset(0 0 0 0); transition: clip-path 1000ms cubic-bezier(.2,.7,.2,1), opacity 500ms ease; }
+.image-reveal.is-visible { clip-path: inset(0 0 0 0); }
 @utility link-arrow { &:hover svg { transform: translate(0.2rem, -0.2rem); } }
 @utility writing-vertical { writing-mode: vertical-rl; }
 
